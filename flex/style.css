@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.container {
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.Logo {
+  background: blue;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  line-height: 100px;
+  flex-grow: 800;
+  margin: 10px;
+}
+.User_info {
+	background: red;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	line-height: 100px;
+	flex-grow: 100;
+	margin:10px;
+}
+.container_1 {
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: center;
+	
+}
+.Top_nav {
+	background: green;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	font-size: 60px;
+	flex-grow: 800;
+  	margin: 0px 10px 0 10px;
+}
+.container_2 {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	height: 440px;
+	
+}
+.Product_data {
+	background: green;
+	text-align: center;
+	line-height: 100px;
+	flex-grow: 500;
+	color: white;
+	font-size: 60px;
+	margin: 10px 10px 0 10px;
+	
+}
+.Promo {
+	background: purple;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	font-size: 60px;
+	margin: 10px 10px 0 10px;
+	flex-shrink: 20;
+	
+}
+.container_3 {
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: center;
+}
+ #footer {
+	background: blue;
+	flex: 1 1 auto;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	font-size: 60px;
+	margin: 10px 10px 0 10px;
+	flex-shrink: 20;
+}
