@@ -55,9 +55,9 @@
      }
 
 @media screen and (max-width: 1520px) {
-    .nav, .aside {width: 20080px; height: 50px;}
+    .nav, .aside {width: 20080px; height: 50px;order:4;}
  @media screen and (max-width: 1520px){
- 	 .article{width: 20080px;height: 565px;order: 1}
+ 	 .article{width: 20080px;height: 565px;}
  }
 
      
